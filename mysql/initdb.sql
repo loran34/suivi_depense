@@ -13,7 +13,7 @@ CREATE TABLE `suivi_depenses`.`type_depense` (
   PRIMARY KEY (`id`),
   UNIQUE INDEX `description_UNIQUE` (`description` ASC));
 
-CREATE TABLE `suivi_depenses`.`depenses` (
+CREATE TABLE `suivi_depenses`.`depense` (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `id_ordre_mission` INT UNSIGNED NOT NULL,
   `description` VARCHAR(250) NOT NULL,
