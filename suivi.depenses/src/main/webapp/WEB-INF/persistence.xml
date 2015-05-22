@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
+
+  <!-- Tutorial "unit" -->
+  <persistence-unit name="suiviDepenses" transaction-type="JTA">
+    <jta-data-source>suiviDepenseDatasource</jta-data-source>
+    <class>domain.OrdreMission</class>
+    <class>domain.TypeDepense</class>
+    <class>domain.Depense</class>
+  </persistence-unit>
+
+</persistence>
+

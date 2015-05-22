@@ -21,6 +21,11 @@
 			<version>6.0-6</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.primefaces</groupId>
+			<artifactId>primefaces</artifactId>
+			<version>5.2</version>
+		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
@@ -48,7 +53,8 @@
 					<artifactId>openjpa-maven-plugin</artifactId>
 					<version>${version.openjpa}</version>
 				</plugin>
-				<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+				<!--This plugin's configuration is used to store Eclipse m2e settings 
+					only. It has no influence on the Maven build itself. -->
 				<plugin>
 					<groupId>org.eclipse.m2e</groupId>
 					<artifactId>lifecycle-mapping</artifactId>
